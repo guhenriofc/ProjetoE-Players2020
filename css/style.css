@@ -6,6 +6,7 @@
     --blue: #001F70;
     --gradient: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
     --box-shadow:  1px 1px 20px 4px #000000;
+
     --font: 'Titillium Web', sans-serif;
 }
 *{
@@ -17,15 +18,65 @@
 body{
     background-color: var(--background)
 }
-@media screen and (max-width: 1199px){
+.img{
+    width: 100%;
+}
+.header-top{
+    width: 100%;
+    height: 5em;
+    /* background-color: whitesmoke; */
+}
+.content{
+    width: 100%;
+    max-width: 75em;
+    height: 100%;
+    margin: auto;
+    /* background-color: violet; */
+}
+.flex-spbt-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top img{
+    max-width: 21.18em;
+}
+.menu{
+    width: 100%;
+    max-width: 50em;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.5em;
+    padding: 0.9em 0.66em;
+}
+.menu a:hover{
+    background-color: var(--red);
+    text-shadow: 0 0 20px #fff;
+    text-decoration: underline;
+}
+#menu-bars{
+    display: none;
+}
+/* até 1199px */
+@media screen and (max-width: 74.93em){
 
 }
-@media screen and (max-width: 991px){
+/* até 991px */
+@media screen and (max-width: 61.93em){
 
 }
-@media screen and (max-width: 767px){
+/* até 767px */
+@media screen and (max-width: 47.93em){
 
 }
-@media screen and (max-width: 576px){
+/* até 576px */
+@media screen and (max-width: 36em){
 
 }
