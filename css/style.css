@@ -6,6 +6,7 @@
     --red: #C20000;
     --blue: #001F70;
     --gradient: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    --grey: #2b2a2a;
     
     --font: 'Titillium Web', sans-serif;
 }
@@ -215,6 +216,20 @@ img{
 .linha{
     height: 65%;
     border: solid 0.5px #fff;
+}
+.noticias{
+    width: 100%;
+    height: 62.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--grey);
+}
+.container-ntc{
+    width: 80%;
+    height: 90%;
+    background-color: violet;
+    color: white;
 }
 
 
