@@ -1,2 +1,2 @@
-# ProjetoE-Players_2020
-Iniciando projeto E-Players
+# E-Players_20202S_Tarde
+Projeto desenvolvido pelo curso de desenvolvimento de sistemas
