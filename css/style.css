@@ -372,6 +372,9 @@ img{
     .header-top img{
         padding-top: 1em;
     }
+    .menu a:hover{
+        padding-top: 0.3em;
+    }
     .banner-text h1{
         font-size: 4em;
     }
@@ -387,8 +390,30 @@ img{
     }
     .games ul a:hover img{
         transition: 0.5s;
-        transform:scale(1.07);
+        transform:scale(1.2);
     }
+    .text-about{
+        width: 55%;
+        padding-top: 1em;
+    }
+    .content-about img {
+        width: 40%;
+    /* }
+    .games-aovivo, .games-embreve{
+        font-size: 1.4em;
+    }
+    .partida{
+        justify-content: space-around;
+    }
+    .partida p{
+        font-size: 1em;
+    }
+    .time1{
+        margin-right: 0.5em;
+    }
+    .time2{
+        margin-left: 0.5em;
+    } */
 
 }
 /* de 768px até 991px */
